@@ -1,0 +1,43 @@
+/* Header.css */
+.upper-header {
+  background-color: #4A2C2A; 
+  color: #ffffff;
+  height: 45px;
+}
+
+.upper-header .navbar-nav .nav-link {
+  color: white;
+}
+
+.upper-header .nav-link:hover {
+  color: #ddd; 
+}
+
+.main-header {
+  background-color: white;
+  padding: 10px 0;
+ max-width: 1440px;
+}
+
+.main-header .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.icon{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-placeholder-logo{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+@media (max-width: 767px) {
+  .upper-header {
+    display: none;
+  }
+}
+

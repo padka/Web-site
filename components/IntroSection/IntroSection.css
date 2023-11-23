@@ -1,0 +1,39 @@
+.intro-section {
+    padding: 10px 0;
+    text-align: center;
+    background-color: #f4f4f4; /* Светлый фон для контраста */
+  }
+  
+  .intro-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro-section p {
+    font-size: 1.2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gallery img {
+    width: 30%;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .gallery img {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+  
+  

@@ -1,0 +1,50 @@
+.contact-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  .contact-form {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .address, .hours, .phone-email {
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+  }
+  
+  .map {
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+  }
+  
