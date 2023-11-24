@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .vertical-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .vertical-form .form-group {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .container .form-control {
+    border-radius: 10px;
+  }
+  
+  .container .btn {
+    background-color: #4a2c2a;
+    border-color: #83d447;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .zagolovokForm {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    
+   
+  align-items: center;
+  }
+  
+  .form-group .form-control {
+    width: 250px;
+    border: 2px solid #4a2c2a; 
+    border-radius: 5px; 
+    padding: 8px; 
+    margin-top: 10px; 
+    color: white !important;
+    background-color: #83d447;
+  }
+
+  .h3 {
+    color: #83d447;
+  }
+
+  .zagolovokForm {
+    color: #4a2c2a;
+  }
+
+  .button-form-registration {
+    border: 2px solid #4a2c2a;
+    padding: 15px 10px;
+    color:#4a2c2a;  
+    width: 60%;  
+    background-color: #83d447;
+  }
+
+  .text-center {
+    display: flex;
+    flex-direction: column;
+  }
+
+.logo      { 
+  margin-top: 25%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+  
+
+
+  
+  
