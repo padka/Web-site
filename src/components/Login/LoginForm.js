@@ -31,7 +31,7 @@ const LoginForm = () => {
     <Form onSubmit={handleSubmit} className="container mt-5">
       <div className="text-center mb-4">
         <img className="logo mb-4" src={logo} alt="Логотип" width="72" height="72" />
-        <h1 className="h3 mb-3 font-weight-normal">Регистрация</h1>
+        <h1 className="h3 mb-3 font-weight-normal">Вход</h1>
       </div>
 
       <div className="vertical-form" >
